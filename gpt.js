@@ -2,7 +2,7 @@ const { Configuration, OpenAIApi } = require('openai');//npm i openai
 
 const configuration = new Configuration({
  organization: "https://platform.openai.com/account/org-settings burdan altta oluyor",
-  apiKey: "chatgpt api almak için https://platform.openai.com/account/api-keys",
+  apiKey: "chatgpt api key almak için https://platform.openai.com/account/api-keys",
 });
 
 const openai = new OpenAIApi(configuration);
